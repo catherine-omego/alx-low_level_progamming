@@ -1,4 +1,4 @@
-C - More pointers, arrays and strings
+0x06, C - More pointers, arrays and strings
 Task 0 - a function that concatenates two strings
 Task 1 - a function that concatenates two strings
 Task 2 - a function that copies a string
