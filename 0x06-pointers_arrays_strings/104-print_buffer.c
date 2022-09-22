@@ -35,7 +35,7 @@ void print_buffer(char *b, int size)
 					printf("%.2x", *(b + k));
 
 				else
-					printf(" ");
+					printf("  ");
 			}
 			printf(" ");
 
