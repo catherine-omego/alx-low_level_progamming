@@ -6,7 +6,7 @@
  *
  * @b: buffer
  *
- * @size: size of the buffer
+ * @size: the size of the buffer
  *
  * Return: Null void
  */
@@ -24,12 +24,12 @@ void print_buffer(char *b, int size)
 	{
 		for (j = 0; j < size; j += 10)
 		{
-			printf("%.8x:", j);
+			printf(".%8x:", j);
 
 			for (k = j; k < j + 10; k++)
 			{
 				if (k % 2 == 0)
-					printf(" ");
+					printf("  ");
 
 				if (k < size)
 					printf("%.2x", *(b + k));
@@ -37,7 +37,7 @@ void print_buffer(char *b, int size)
 				else
 					printf("  ");
 			}
-			printf(" ");
+			printf("  ");
 
 			for (l = j; l < j + 10; l++)
 			{
