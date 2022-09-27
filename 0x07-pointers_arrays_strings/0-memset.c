@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _memset -  fills a block of memory
  *
  * @s: to be filled with a buffer
