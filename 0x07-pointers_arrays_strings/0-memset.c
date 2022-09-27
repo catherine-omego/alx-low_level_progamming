@@ -1,9 +1,7 @@
 #include "main.h"
 
 /*
- * _memset - fills the first n bytes of the memory area pointed to by s
- *
- * with the constant byte b
+ * _memset -  fills a block of memory
  *
  * @s: to be filled with a buffer
  *
@@ -14,13 +12,14 @@
  * Return: a pointer to be memory area s
  */
 
-char *_memset(char *s, char b, unsigned int n)
-
+char *_memset(char *s, char b, unsigned int n);
 {
-	unsigned int i;
+	int i = 0;
 
-	for (i = 0; i < n; i++)
+	for (; n > 0; i++)
+	{
 		s[i] = b;
-
+		n--;
+	}
 	return (s);
 }
