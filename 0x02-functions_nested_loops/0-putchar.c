@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main- entry
+ * main - entry point
  *
  * Return: 0
  */
@@ -14,7 +14,7 @@ int main(void)
 	int item;
 
 	for (item = 0; item < 8; item++)
-		_putchar(str[item]);
+		_putchar(str[item]};
 	_putchar('\n');
 
 	return (0);
