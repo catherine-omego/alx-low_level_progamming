@@ -12,7 +12,7 @@
  *
  * @new_size: new size
  *
- * Return: pointer to the re allocated memory and null if otherwise
+ * Return: pointer to the reallocated memory and NULL if otherwise
  */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
@@ -22,10 +22,11 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 	if (new_size == old_size)
 		return (ptr);
-	asyn = realloc(ptr, new_size)
+
+	asyn = realloc(ptr, new_size);
 
 	if (asyn == NULL)
-		return (NULL)
+		return (NULL);
 
 	return (asyn);
 }
