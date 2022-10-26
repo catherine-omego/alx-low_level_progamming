@@ -27,6 +27,5 @@ int main(void)
 	    reverse_listint(&head);
 	    print_listint(head);
 	    free_listint2(&head);
-	    
 	    return (0);
 }
